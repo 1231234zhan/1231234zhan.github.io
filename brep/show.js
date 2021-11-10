@@ -88,7 +88,6 @@ function render(objstring) {
                     obj.material.dispose();
                 }
             });
-            // 删除场景对象scene的子对象group
             scene.remove(myobj);
             return;
         }

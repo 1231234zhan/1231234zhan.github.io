@@ -125,5 +125,6 @@ function drawSolid(scene, content) {
     var obj = triangulate(scene);
     assert(obj);
     var objstring = getobj(obj);
+    console.log(scene);
     return objstring;
 }
